@@ -1,6 +1,10 @@
 from flask import Flask,request,jsonify
 app=Flask(__name__)
 data=[{'id':100,'name':'joe'
+},
+{
+    'id':200,
+    'name':'mic'
 }]
 @app.route("/")
 def get():
