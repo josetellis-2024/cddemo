@@ -2,7 +2,7 @@ from flask import Flask,request,jsonify
 app=Flask(__name__)
 data=[{'id':100,'name':'joe'
 }]
-@app.route()
+@app.route("/")
 def get():
     return jsonify(data),200
 
